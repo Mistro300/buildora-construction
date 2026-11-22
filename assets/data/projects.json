@@ -1,0 +1,536 @@
+[
+  {
+    "id": "project-001",
+    "slug": "new-cairo-villa-renovation",
+    "title": "تجديد فيلا سكنية بالقاهرة الجديدة",
+    "category": "residential",
+    "city": "القاهرة الجديدة",
+    "year": 2025,
+    "areaSqm": 220,
+    "thumbnail": "assets/images/projects/project-001-cover.webp",
+    "thumbnailAlt": "تجديد فيلا سكنية بالقاهرة الجديدة — رسم معماري رقمي توضيحي",
+    "gallery": [
+      {
+        "src": "assets/images/projects/project-001-cover.webp",
+        "alt": "المشهد الرئيسي لمشروع تجديد فيلا سكنية بالقاهرة الجديدة — رسم معماري توضيحي غير حقيقي",
+        "width": 1200,
+        "height": 800
+      },
+      {
+        "src": "assets/images/projects/project-001-detail.webp",
+        "alt": "مشهد تفصيلي لمشروع تجديد فيلا سكنية بالقاهرة الجديدة — رسم معماري توضيحي غير حقيقي",
+        "width": 1200,
+        "height": 800
+      }
+    ],
+    "beforeImage": {
+      "src": "assets/images/projects/project-001-before.webp",
+      "alt": "تصور أولي للمساحة — رسم معماري توضيحي غير حقيقي",
+      "width": 1200,
+      "height": 800
+    },
+    "afterImage": {
+      "src": "assets/images/projects/project-001-after.webp",
+      "alt": "تصور تطويري للمساحة — رسم معماري توضيحي غير حقيقي",
+      "width": 1200,
+      "height": 800
+    },
+    "summary": "تجديد فيلا بخطوط أفقية واضحة وتوزيع جديد بين الخصوصية والإضاءة الطبيعية.",
+    "scope": [
+      "إعادة تنظيم فراغات المعيشة",
+      "تطوير الواجهة",
+      "اقتراح معالجة للإضاءة الطبيعية"
+    ],
+    "challenges": [
+      "عدم وضوح اتصال المعيشة بالحديقة",
+      "الحاجة إلى خصوصية أكبر للغرف"
+    ],
+    "solutions": [
+      "فتح محور بصري على المساحة الخارجية",
+      "توزيع الفتحات بما يراعي الخصوصية"
+    ],
+    "featured": true,
+    "isDemo": true
+  },
+  {
+    "id": "project-002",
+    "slug": "sheikh-zayed-family-home",
+    "title": "مسكن عائلي مرن بالشيخ زايد",
+    "category": "residential",
+    "city": "الشيخ زايد",
+    "year": 2024,
+    "areaSqm": 185,
+    "thumbnail": "assets/images/projects/project-002-cover.webp",
+    "thumbnailAlt": "مسكن عائلي مرن بالشيخ زايد — رسم معماري رقمي توضيحي",
+    "gallery": [
+      {
+        "src": "assets/images/projects/project-002-cover.webp",
+        "alt": "المشهد الرئيسي لمشروع مسكن عائلي مرن بالشيخ زايد — رسم معماري توضيحي غير حقيقي",
+        "width": 1200,
+        "height": 800
+      },
+      {
+        "src": "assets/images/projects/project-002-detail.webp",
+        "alt": "مشهد تفصيلي لمشروع مسكن عائلي مرن بالشيخ زايد — رسم معماري توضيحي غير حقيقي",
+        "width": 1200,
+        "height": 800
+      }
+    ],
+    "beforeImage": null,
+    "afterImage": null,
+    "summary": "تصور لمسكن عائلي يتكيف مع أنشطة اليوم ويعتمد لوحة هادئة من المواد الطبيعية.",
+    "scope": [
+      "إعادة توزيع الأثاث الثابت",
+      "معالجة الإضاءة",
+      "تنسيق مناطق الاستقبال"
+    ],
+    "challenges": [
+      "تعدد الاستخدامات داخل مساحة محدودة"
+    ],
+    "solutions": [
+      "فصل المناطق بواسطة العناصر المعمارية لا الجدران الثقيلة"
+    ],
+    "featured": false,
+    "isDemo": true
+  },
+  {
+    "id": "project-003",
+    "slug": "nasr-city-urban-home",
+    "title": "تطوير منزل حضري بمدينة نصر",
+    "category": "residential",
+    "city": "مدينة نصر",
+    "year": 2025,
+    "areaSqm": 260,
+    "thumbnail": "assets/images/projects/project-003-cover.webp",
+    "thumbnailAlt": "تطوير منزل حضري بمدينة نصر — رسم معماري رقمي توضيحي",
+    "gallery": [
+      {
+        "src": "assets/images/projects/project-003-cover.webp",
+        "alt": "المشهد الرئيسي لمشروع تطوير منزل حضري بمدينة نصر — رسم معماري توضيحي غير حقيقي",
+        "width": 1200,
+        "height": 800
+      },
+      {
+        "src": "assets/images/projects/project-003-detail.webp",
+        "alt": "مشهد تفصيلي لمشروع تطوير منزل حضري بمدينة نصر — رسم معماري توضيحي غير حقيقي",
+        "width": 1200,
+        "height": 800
+      }
+    ],
+    "beforeImage": null,
+    "afterImage": null,
+    "summary": "مقترح معماري يرفع كفاءة الاستخدام ويمنح المبنى حضورًا عصريًا دون ازدحام بصري.",
+    "scope": [
+      "تطوير الواجهة",
+      "تنسيق المدخل",
+      "دراسة نسب النوافذ"
+    ],
+    "challenges": [
+      "واجهة قديمة بفتحات غير متوازنة"
+    ],
+    "solutions": [
+      "إعادة صياغة الإيقاع بين الكتل والفراغات"
+    ],
+    "featured": false,
+    "isDemo": true
+  },
+  {
+    "id": "project-004",
+    "slug": "new-cairo-flexible-office",
+    "title": "مكتب إداري متعدد الوظائف",
+    "category": "commercial",
+    "city": "القاهرة الجديدة",
+    "year": 2025,
+    "areaSqm": 340,
+    "thumbnail": "assets/images/projects/project-004-cover.webp",
+    "thumbnailAlt": "مكتب إداري متعدد الوظائف — رسم معماري رقمي توضيحي",
+    "gallery": [
+      {
+        "src": "assets/images/projects/project-004-cover.webp",
+        "alt": "المشهد الرئيسي لمشروع مكتب إداري متعدد الوظائف — رسم معماري توضيحي غير حقيقي",
+        "width": 1200,
+        "height": 800
+      },
+      {
+        "src": "assets/images/projects/project-004-detail.webp",
+        "alt": "مشهد تفصيلي لمشروع مكتب إداري متعدد الوظائف — رسم معماري توضيحي غير حقيقي",
+        "width": 1200,
+        "height": 800
+      }
+    ],
+    "beforeImage": {
+      "src": "assets/images/projects/project-004-before.webp",
+      "alt": "تصور أولي للمساحة — رسم معماري توضيحي غير حقيقي",
+      "width": 1200,
+      "height": 800
+    },
+    "afterImage": {
+      "src": "assets/images/projects/project-004-after.webp",
+      "alt": "تصور تطويري للمساحة — رسم معماري توضيحي غير حقيقي",
+      "width": 1200,
+      "height": 800
+    },
+    "summary": "مفهوم لمكتب يوازن بين العمل التعاوني والمناطق الهادئة ضمن لغة مؤسسية متماسكة.",
+    "scope": [
+      "تخطيط مناطق العمل",
+      "تطوير واجهة الاستقبال",
+      "تنسيق المواد والألوان"
+    ],
+    "challenges": [
+      "الحفاظ على الهدوء مع تعدد أنماط العمل"
+    ],
+    "solutions": [
+      "توزيع مناطق العمل حسب درجة التفاعل"
+    ],
+    "featured": true,
+    "isDemo": true
+  },
+  {
+    "id": "project-005",
+    "slug": "october-retail-showroom",
+    "title": "صالة عرض تجارية بالسادس من أكتوبر",
+    "category": "commercial",
+    "city": "السادس من أكتوبر",
+    "year": 2024,
+    "areaSqm": 410,
+    "thumbnail": "assets/images/projects/project-005-cover.webp",
+    "thumbnailAlt": "صالة عرض تجارية بالسادس من أكتوبر — رسم معماري رقمي توضيحي",
+    "gallery": [
+      {
+        "src": "assets/images/projects/project-005-cover.webp",
+        "alt": "المشهد الرئيسي لمشروع صالة عرض تجارية بالسادس من أكتوبر — رسم معماري توضيحي غير حقيقي",
+        "width": 1200,
+        "height": 800
+      },
+      {
+        "src": "assets/images/projects/project-005-detail.webp",
+        "alt": "مشهد تفصيلي لمشروع صالة عرض تجارية بالسادس من أكتوبر — رسم معماري توضيحي غير حقيقي",
+        "width": 1200,
+        "height": 800
+      }
+    ],
+    "beforeImage": null,
+    "afterImage": null,
+    "summary": "مساحة عرض بواجهة شفافة وحركة زوار مدروسة مع تركيز على وضوح المنتج.",
+    "scope": [
+      "تصميم حركة الزوار",
+      "معالجة الواجهة الزجاجية",
+      "توزيع الإضاءة الموجهة"
+    ],
+    "challenges": [
+      "طول الواجهة مقابل عمق العرض"
+    ],
+    "solutions": [
+      "تسلسل واضح لمسار التجربة داخل المحل"
+    ],
+    "featured": false,
+    "isDemo": true
+  },
+  {
+    "id": "project-006",
+    "slug": "maadi-workplace-reuse",
+    "title": "إعادة تأهيل مساحة عمل بالمعادي",
+    "category": "commercial",
+    "city": "المعادي",
+    "year": 2026,
+    "areaSqm": 290,
+    "thumbnail": "assets/images/projects/project-006-cover.webp",
+    "thumbnailAlt": "إعادة تأهيل مساحة عمل بالمعادي — رسم معماري رقمي توضيحي",
+    "gallery": [
+      {
+        "src": "assets/images/projects/project-006-cover.webp",
+        "alt": "المشهد الرئيسي لمشروع إعادة تأهيل مساحة عمل بالمعادي — رسم معماري توضيحي غير حقيقي",
+        "width": 1200,
+        "height": 800
+      },
+      {
+        "src": "assets/images/projects/project-006-detail.webp",
+        "alt": "مشهد تفصيلي لمشروع إعادة تأهيل مساحة عمل بالمعادي — رسم معماري توضيحي غير حقيقي",
+        "width": 1200,
+        "height": 800
+      }
+    ],
+    "beforeImage": null,
+    "afterImage": null,
+    "summary": "إعادة تصور لمساحة عمل قائمة لاستيعاب فرق متنوعة مع الاحتفاظ بطابع عملي هادئ.",
+    "scope": [
+      "إعادة توظيف المساحات",
+      "تنسيق وحدات الإضاءة",
+      "التخطيط للخدمات"
+    ],
+    "challenges": [
+      "وجود نقاط خدمة ثابتة تحد الحركة"
+    ],
+    "solutions": [
+      "تصميم مناطق مرنة حول الخدمات القائمة"
+    ],
+    "featured": false,
+    "isDemo": true
+  },
+  {
+    "id": "project-007",
+    "slug": "obour-apartment-finishing",
+    "title": "تشطيبات شقة هادئة بالعبور",
+    "category": "finishing",
+    "city": "العبور",
+    "year": 2025,
+    "areaSqm": 165,
+    "thumbnail": "assets/images/projects/project-007-cover.webp",
+    "thumbnailAlt": "تشطيبات شقة هادئة بالعبور — رسم معماري رقمي توضيحي",
+    "gallery": [
+      {
+        "src": "assets/images/projects/project-007-cover.webp",
+        "alt": "المشهد الرئيسي لمشروع تشطيبات شقة هادئة بالعبور — رسم معماري توضيحي غير حقيقي",
+        "width": 1200,
+        "height": 800
+      },
+      {
+        "src": "assets/images/projects/project-007-detail.webp",
+        "alt": "مشهد تفصيلي لمشروع تشطيبات شقة هادئة بالعبور — رسم معماري توضيحي غير حقيقي",
+        "width": 1200,
+        "height": 800
+      }
+    ],
+    "beforeImage": {
+      "src": "assets/images/projects/project-007-before.webp",
+      "alt": "تصور أولي للمساحة — رسم معماري توضيحي غير حقيقي",
+      "width": 1200,
+      "height": 800
+    },
+    "afterImage": {
+      "src": "assets/images/projects/project-007-after.webp",
+      "alt": "تصور تطويري للمساحة — رسم معماري توضيحي غير حقيقي",
+      "width": 1200,
+      "height": 800
+    },
+    "summary": "تصور داخلي يجمع الخشب الدافئ مع الأسطح الفاتحة وإضاءة متعددة الطبقات.",
+    "scope": [
+      "تشطيبات الأرضيات والجدران",
+      "اختيار الخامات",
+      "مقترحات الأسقف والإضاءة"
+    ],
+    "challenges": [
+      "غياب هوية موحدة بين غرف المنزل"
+    ],
+    "solutions": [
+      "لوحة خامات مستمرة مع اختلاف مدروس لكل مساحة"
+    ],
+    "featured": true,
+    "isDemo": true
+  },
+  {
+    "id": "project-008",
+    "slug": "heliopolis-reception",
+    "title": "منطقة استقبال بمصر الجديدة",
+    "category": "finishing",
+    "city": "مصر الجديدة",
+    "year": 2024,
+    "areaSqm": 125,
+    "thumbnail": "assets/images/projects/project-008-cover.webp",
+    "thumbnailAlt": "منطقة استقبال بمصر الجديدة — رسم معماري رقمي توضيحي",
+    "gallery": [
+      {
+        "src": "assets/images/projects/project-008-cover.webp",
+        "alt": "المشهد الرئيسي لمشروع منطقة استقبال بمصر الجديدة — رسم معماري توضيحي غير حقيقي",
+        "width": 1200,
+        "height": 800
+      },
+      {
+        "src": "assets/images/projects/project-008-detail.webp",
+        "alt": "مشهد تفصيلي لمشروع منطقة استقبال بمصر الجديدة — رسم معماري توضيحي غير حقيقي",
+        "width": 1200,
+        "height": 800
+      }
+    ],
+    "beforeImage": null,
+    "afterImage": null,
+    "summary": "معالجة لمنطقة استقبال تعتمد نسبًا متوازنة وموادًا قليلة عالية الحضور.",
+    "scope": [
+      "تطوير الحوائط",
+      "تنسيق التجهيزات",
+      "معالجة المشاهد الضوئية"
+    ],
+    "challenges": [
+      "حاجة المساحة إلى اتساع بصري دون تعديل إنشائي"
+    ],
+    "solutions": [
+      "تقليل العناصر والتركيز على انعكاسات الضوء"
+    ],
+    "featured": false,
+    "isDemo": true
+  },
+  {
+    "id": "project-009",
+    "slug": "fifth-settlement-concept-store",
+    "title": "متجر مفاهيمي بالتجمع الخامس",
+    "category": "finishing",
+    "city": "التجمع الخامس",
+    "year": 2026,
+    "areaSqm": 175,
+    "thumbnail": "assets/images/projects/project-009-cover.webp",
+    "thumbnailAlt": "متجر مفاهيمي بالتجمع الخامس — رسم معماري رقمي توضيحي",
+    "gallery": [
+      {
+        "src": "assets/images/projects/project-009-cover.webp",
+        "alt": "المشهد الرئيسي لمشروع متجر مفاهيمي بالتجمع الخامس — رسم معماري توضيحي غير حقيقي",
+        "width": 1200,
+        "height": 800
+      },
+      {
+        "src": "assets/images/projects/project-009-detail.webp",
+        "alt": "مشهد تفصيلي لمشروع متجر مفاهيمي بالتجمع الخامس — رسم معماري توضيحي غير حقيقي",
+        "width": 1200,
+        "height": 800
+      }
+    ],
+    "beforeImage": null,
+    "afterImage": null,
+    "summary": "تصور لتشطيبات متجر عصري يمنح منتجاته الأولوية عبر خامات بسيطة ومحايدة.",
+    "scope": [
+      "تصميم وحدات العرض",
+      "تنسيق خامات الأرضيات",
+      "إضاءة المنتجات"
+    ],
+    "challenges": [
+      "ضرورة تغيير الترتيب الموسمي للمنتجات"
+    ],
+    "solutions": [
+      "استخدام وحدات عرض قابلة لإعادة الترتيب"
+    ],
+    "featured": false,
+    "isDemo": true
+  },
+  {
+    "id": "project-010",
+    "slug": "shorouk-villa-structure",
+    "title": "هيكل إنشائي لفيلا بالشروق",
+    "category": "construction",
+    "city": "الشروق",
+    "year": 2025,
+    "areaSqm": 310,
+    "thumbnail": "assets/images/projects/project-010-cover.webp",
+    "thumbnailAlt": "هيكل إنشائي لفيلا بالشروق — رسم معماري رقمي توضيحي",
+    "gallery": [
+      {
+        "src": "assets/images/projects/project-010-cover.webp",
+        "alt": "المشهد الرئيسي لمشروع هيكل إنشائي لفيلا بالشروق — رسم معماري توضيحي غير حقيقي",
+        "width": 1200,
+        "height": 800
+      },
+      {
+        "src": "assets/images/projects/project-010-detail.webp",
+        "alt": "مشهد تفصيلي لمشروع هيكل إنشائي لفيلا بالشروق — رسم معماري توضيحي غير حقيقي",
+        "width": 1200,
+        "height": 800
+      }
+    ],
+    "beforeImage": {
+      "src": "assets/images/projects/project-010-before.webp",
+      "alt": "تصور أولي للمساحة — رسم معماري توضيحي غير حقيقي",
+      "width": 1200,
+      "height": 800
+    },
+    "afterImage": {
+      "src": "assets/images/projects/project-010-after.webp",
+      "alt": "تصور تطويري للمساحة — رسم معماري توضيحي غير حقيقي",
+      "width": 1200,
+      "height": 800
+    },
+    "summary": "مخطط بصري افتراضي لمرحلة إنشاء فيلا مع إبراز وضوح التسلسل الإنشائي.",
+    "scope": [
+      "تهيئة الموقع",
+      "تنظيم مراحل الهيكل",
+      "متابعة بنود الاستلام"
+    ],
+    "challenges": [
+      "تنسيق أكثر من نطاق أعمال في وقت متقارب"
+    ],
+    "solutions": [
+      "تقسيم التنفيذ إلى نقاط مراجعة متتابعة"
+    ],
+    "featured": false,
+    "isDemo": true
+  },
+  {
+    "id": "project-011",
+    "slug": "badr-service-building",
+    "title": "مبنى خدمي صغير بمدينة بدر",
+    "category": "construction",
+    "city": "بدر",
+    "year": 2024,
+    "areaSqm": 520,
+    "thumbnail": "assets/images/projects/project-011-cover.webp",
+    "thumbnailAlt": "مبنى خدمي صغير بمدينة بدر — رسم معماري رقمي توضيحي",
+    "gallery": [
+      {
+        "src": "assets/images/projects/project-011-cover.webp",
+        "alt": "المشهد الرئيسي لمشروع مبنى خدمي صغير بمدينة بدر — رسم معماري توضيحي غير حقيقي",
+        "width": 1200,
+        "height": 800
+      },
+      {
+        "src": "assets/images/projects/project-011-detail.webp",
+        "alt": "مشهد تفصيلي لمشروع مبنى خدمي صغير بمدينة بدر — رسم معماري توضيحي غير حقيقي",
+        "width": 1200,
+        "height": 800
+      }
+    ],
+    "beforeImage": null,
+    "afterImage": null,
+    "summary": "تكوين إنشائي بسيط لمبنى خدمي يركز على وظيفية الدخول والحركة وإدارة الموقع.",
+    "scope": [
+      "أعمال الهيكل",
+      "تنسيق المداخل",
+      "مراجعة التفاصيل الفنية"
+    ],
+    "challenges": [
+      "متطلبات دخول متعددة لمستخدمين مختلفين"
+    ],
+    "solutions": [
+      "مداخل مفصولة بحركة واضحة ومحددة"
+    ],
+    "featured": false,
+    "isDemo": true
+  },
+  {
+    "id": "project-012",
+    "slug": "october-building-extension",
+    "title": "إنشاء وتوسعة مبنى بأكتوبر",
+    "category": "construction",
+    "city": "السادس من أكتوبر",
+    "year": 2026,
+    "areaSqm": 390,
+    "thumbnail": "assets/images/projects/project-012-cover.webp",
+    "thumbnailAlt": "إنشاء وتوسعة مبنى بأكتوبر — رسم معماري رقمي توضيحي",
+    "gallery": [
+      {
+        "src": "assets/images/projects/project-012-cover.webp",
+        "alt": "المشهد الرئيسي لمشروع إنشاء وتوسعة مبنى بأكتوبر — رسم معماري توضيحي غير حقيقي",
+        "width": 1200,
+        "height": 800
+      },
+      {
+        "src": "assets/images/projects/project-012-detail.webp",
+        "alt": "مشهد تفصيلي لمشروع إنشاء وتوسعة مبنى بأكتوبر — رسم معماري توضيحي غير حقيقي",
+        "width": 1200,
+        "height": 800
+      }
+    ],
+    "beforeImage": null,
+    "afterImage": null,
+    "summary": "تصور لتوسعة مرحلية تحافظ على الوضوح المعماري بين الجزء القائم والإضافة.",
+    "scope": [
+      "دراسة ربط المبنى",
+      "مراجعة مسارات الحركة",
+      "تنسيق مظهر الواجهة"
+    ],
+    "challenges": [
+      "دمج كتلتين من مرحلتين مختلفتين"
+    ],
+    "solutions": [
+      "ربط الكتل بخطوط معمارية أفقية متكررة"
+    ],
+    "featured": false,
+    "isDemo": true
+  }
+]

@@ -1,0 +1,31 @@
+{
+  "brand": "BUILDORA",
+  "legalNotice": "BUILDORA مشروع Portfolio Concept افتراضي. جميع الأسماء والمشروعات والرسومات والاقتباسات والأرقام بيانات Demo غير موثقة، ولا يتم استقبال طلبات فعلية.",
+  "locale": "ar-EG",
+  "direction": "rtl",
+  "contact": {
+    "displayEmail": "contact@example.com",
+    "displayPhone": "غير متاح في النسخة التجريبية",
+    "addressLabel": "مصر — نطاق جغرافي توضيحي"
+  },
+  "stats": [
+    {
+      "id": "stat-01",
+      "label": "مشروع توضيحي",
+      "value": 12,
+      "isDemo": true
+    },
+    {
+      "id": "stat-02",
+      "label": "خدمات معروضة",
+      "value": 6,
+      "isDemo": true
+    },
+    {
+      "id": "stat-03",
+      "label": "مراحل عمل",
+      "value": 5,
+      "isDemo": true
+    }
+  ]
+}

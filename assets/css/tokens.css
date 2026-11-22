@@ -1,0 +1,99 @@
+/* BUILDORA design tokens — Stage B production baseline. */
+:root {
+  /* 60%: warm foundations */
+  --bg-page: #f8f7f3;
+  --bg-surface: #ffffff;
+  --bg-subtle: #efece4;
+
+  /* 30%: architectural dark palette */
+  --brand-navy: #14212e;
+  --brand-navy-deep: #0d1620;
+  --brand-navy-elevated: #1d2e3f;
+
+  /* 10%: restrained metallic accent */
+  --accent-brass: #c89a65;
+  --accent-brass-hover: #b0834f;
+
+  /* Semantic surfaces and text */
+  --text-primary: #14212e;
+  --text-muted: #55616d;
+  --text-inverse: #ffffff;
+  --text-inverse-muted: #d9e0e6;
+  --text-brass-on-light: #77502e;
+  --surface-brass-soft: #f0e4d5;
+  --border-hairline: rgba(20, 33, 46, 0.12);
+  --border-inverse: rgba(255, 255, 255, 0.2);
+  --focus-strong: #14212e;
+  --focus-inverse: #ffffff;
+  --status-error: #99333b;
+  --status-success: #216347;
+
+  /* Zain is the sole UI family for Arabic, Latin text and numeric headings. */
+  --font-display: 'Zain', system-ui, sans-serif;
+  --font-body: 'Zain', system-ui, sans-serif;
+  --font-ar: 'Zain', system-ui, sans-serif;
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+  --fs-h1: clamp(2.25rem, 4.5vw, 3.85rem);
+  --fs-h2: clamp(1.65rem, 3vw, 2.6rem);
+  --fs-h3: clamp(1.15rem, 1.6vw, 1.4rem);
+  --fs-body: 1rem;
+  --fs-small: clamp(0.875rem, 0.85rem + 0.12vw, 0.95rem);
+  --fs-lead: clamp(1.075rem, 1.01rem + 0.3vw, 1.25rem);
+  --fs-stat: clamp(2rem, 3.75vw, 3.5rem);
+  --line-height-h1: 1.15;
+  --line-height-h2: 1.25;
+  --line-height-h3: 1.35;
+  --line-height-body-ar: 1.75;
+  --line-height-body-en: 1.6;
+
+  /* Four-point spacing scale */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-12: 48px;
+  --space-16: 64px;
+  --space-20: 80px;
+  --space-24: 96px;
+  --space-28: 112px;
+  --section-space: clamp(4rem, 7.5vw, 6.5rem);
+  --container-max: 1280px;
+  --page-gutter: clamp(1rem, 3vw, 2.5rem);
+  --grid-gap: clamp(1rem, 2.3vw, 2rem);
+
+  /* Restrained geometry */
+  --radius-sm: 2px;
+  --radius-md: 4px;
+  --radius-lg: 8px;
+  --border-width: 1px;
+  --control-min-height: 44px;
+  --button-min-height: 44px;
+  --header-height: 80px;
+  --header-height-mobile: 64px;
+  --icon-sm: 16px;
+  --icon-md: 20px;
+  --icon-lg: 24px;
+
+  /* Minimal depth and movement */
+  --shadow-card: 0 8px 24px rgba(13, 22, 32, 0.07);
+  --shadow-header: 0 8px 24px rgba(13, 22, 32, 0.08);
+  --duration-fast: 160ms;
+  --duration-normal: 240ms;
+  --duration-image: 400ms;
+  --ease-architectural: cubic-bezier(0.22, 1, 0.36, 1);
+  --focus-ring-width: 3px;
+  --focus-ring-offset: 3px;
+  --z-base: 0;
+  --z-sticky-header: 20;
+  --z-mobile-menu: 30;
+  --z-dialog-backdrop: 90;
+  --z-dialog: 100;
+}
+
+/* Device widths for acceptance tests: 1440, 1366, 1200, 1024, 992,
+   768, 576, 480, 375 and 330px. These are not all required breakpoints. */
