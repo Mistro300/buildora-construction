@@ -59,8 +59,8 @@ export function createProjectCard(project, category) {
     element('span', { text: `${project.areaSqm} m²`, attrs: { dir: 'ltr', lang: 'en' } }),
   ] });
   const foot = element('a', { className: 'project-card__foot', attrs: { href }, children: [
-    document.createTextNode('استعرض المشروع'), icon('fa-arrow-up-right'),
+    document.createTextNode('استعرض المشروع'), icon('fa-chevron-left'),
   ] });
-  const body = element('div', { className: 'project-card__body', children: [title, meta, element('p', { text: project.summary }), foot] });
+  const body = element('div', { className: 'project-card__body', children: [title, meta, foot] });
   return element('article', { className: 'project-card', children: [mediaLink, body] });
 }

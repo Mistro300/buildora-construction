@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#14212E">
+  <meta name="theme-color" content="#0B131E">
   <meta name="description" content="استكشف 12 مشروعًا معماريًا افتراضيًا من BUILDORA مع فلاتر سكني وتجاري وتشطيب وبناء.">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="BUILDORA">
@@ -27,18 +27,17 @@
 </head>
 <body data-page="projects">
   <a class="skip-link" href="#main-content">تخطَّ إلى المحتوى الرئيسي</a>
+
   <header class="site-header" id="site-header">
     <div class="container site-header__inner">
       <a class="brand" href="index.html" aria-label="BUILDORA — العودة إلى الرئيسية">
         <span class="brand__mark" aria-hidden="true"></span>
-        <span>
-          <span class="brand__text" lang="en" dir="ltr">BUILDORA</span>
-          <span class="brand__caption">للمقاولات والتشطيبات</span>
-        </span>
+        <span class="brand__text" lang="en" dir="ltr">BUILDORA</span>
+        <span class="brand__caption">للمقاولات والتشطيبات</span>
       </a>
 
       <nav class="site-nav" id="primary-navigation" aria-label="التنقل الرئيسي">
-        <a class="site-nav__link" href="index.html" >الرئيسية</a>
+        <a class="site-nav__link" href="index.html">الرئيسية</a>
         <a class="site-nav__link" href="services.html">خدماتنا</a>
         <a class="site-nav__link" href="projects.html" aria-current="page">مشاريعنا</a>
         <a class="site-nav__link" href="about.html">من نحن</a>
@@ -46,10 +45,7 @@
       </nav>
 
       <div class="site-header__actions">
-        <a class="button button--brass site-header__quote" href="contact.html#quote">
-          اطلب عرض سعر
-          <i class="fa-solid fa-arrow-left icon icon--sm" aria-hidden="true"></i>
-        </a>
+        <a class="button button--brass site-header__quote" href="contact.html#quote">اطلب عرض سعر</a>
         <button class="site-header__menu-toggle" id="menu-toggle" type="button" aria-controls="primary-navigation" aria-expanded="false" aria-label="فتح القائمة">
           <i class="fa-solid fa-bars icon" aria-hidden="true"></i>
         </button>
@@ -57,39 +53,58 @@
     </div>
     <div class="site-header__backdrop" id="navigation-backdrop" aria-hidden="true"></div>
   </header>
+
   <main id="main-content">
-    <section class="inner-hero" aria-labelledby="page-title">
+    <section class="inner-hero inner-hero--projects" aria-labelledby="page-title">
       <div class="inner-hero__visual" aria-hidden="true"></div>
       <div class="container inner-hero__inner">
-        <nav class="breadcrumb" aria-label="مسار التنقل"><a href="index.html">الرئيسية</a><span aria-hidden="true">/</span><span aria-current="page">المشاريع</span></nav>
-        <span class="eyebrow eyebrow--light">معرض التصورات / 01</span>
-        <h1 id="page-title">مساحات تتحدث بالتفاصيل.</h1>
-        <p>12 تصورًا معماريًا افتراضيًا في أربعة مجالات. استخدم الفلاتر لاكتشاف طبيعة كل مشروع ثم انتقل إلى تفاصيله وصوره.</p>
-        <span class="inner-hero__label">Concept Project / Demo — الصور والمعلومات توضيحية</span>
+        <span class="hero-pill"><span dir="ltr">01</span> / معرض التصورات</span>
+        <h1 id="page-title">مساحات تتحدث<em>بالتفاصيل.</em></h1>
       </div>
     </section>
-    <section class="section catalog" aria-labelledby="catalog-title">
+
+    <section class="section catalog" aria-label="مكتبة الأعمال التوضيحية">
       <div class="container">
-        <div class="catalog__heading"><div><span class="eyebrow">مكتبة الأعمال التوضيحية</span><h2 id="catalog-title">اختر المجال الذي يهمك.</h2></div><p id="projects-count" role="status" aria-live="polite">جارٍ تحميل العدد...</p></div>
-        <div class="catalog__filters" id="project-filters" role="group" aria-label="فلترة المشروعات حسب نوع العمل">
-          <button class="filter-button is-active" type="button" data-category="all" aria-pressed="true">الكل</button>
-          <button class="filter-button" type="button" data-category="residential" aria-pressed="false">سكني</button>
-          <button class="filter-button" type="button" data-category="commercial" aria-pressed="false">تجاري</button>
-          <button class="filter-button" type="button" data-category="finishing" aria-pressed="false">تشطيب</button>
-          <button class="filter-button" type="button" data-category="construction" aria-pressed="false">بناء</button>
+        <div class="catalog__bar">
+          <div class="catalog__filters" id="project-filters" role="group" aria-label="فلترة المشروعات حسب نوع العمل">
+            <button class="filter-button is-active" type="button" data-category="all" aria-pressed="true">الكل</button>
+            <button class="filter-button" type="button" data-category="residential" aria-pressed="false">سكني</button>
+            <button class="filter-button" type="button" data-category="commercial" aria-pressed="false">تجاري</button>
+            <button class="filter-button" type="button" data-category="finishing" aria-pressed="false">تشطيب</button>
+            <button class="filter-button" type="button" data-category="construction" aria-pressed="false">بناء</button>
+          </div>
+          <p class="catalog__count" id="projects-count" role="status" aria-live="polite">جارٍ تحميل العدد...</p>
         </div>
-        <div id="projects-grid" class="project-grid catalog__grid"><p class="state-message">جارٍ تحميل المشاريع...</p></div>
-        <p class="demo-footnote">جميع المشاريع والأماكن والمساحات والأعوام والرسومات أمثلة افتراضية وليست أعمالًا منفذة.</p>
+
+        <div id="projects-grid" class="project-grid catalog__grid">
+          <p class="state-message">جارٍ تحميل المشاريع...</p>
+        </div>
+        <p class="demo-footnote">جميع المشاريع والأماكن والمساحات والأعوام والرسومات أمثلة افتراضية توضيحية — Concept Project / Demo.</p>
       </div>
     </section>
-    <section class="inline-cta"><div class="container inline-cta__inner"><div><span class="eyebrow eyebrow--light">الخطوة التالية</span><h2>هل ترغب في تصور لمساحتك؟</h2></div><a class="button button--brass" href="contact.html#quote">عاين نموذج طلب السعر <i class="fa-solid fa-arrow-left icon icon--sm" aria-hidden="true"></i></a></div></section>
+
+    <section class="cta-band" aria-labelledby="projects-cta-title">
+      <div class="container">
+        <div class="cta-band__frame">
+          <div>
+            <h2 class="cta-band__title" id="projects-cta-title">المساحة التالية تبدأ بفكرة.</h2>
+            <p class="cta-band__sub">هل ترغب في تصور لمساحتك؟ جرّب معاينة نموذج طلب السعر التوضيحي.</p>
+          </div>
+          <div class="cta-band__actions">
+            <a class="button button--brass" href="contact.html#quote">اطلب عرض سعر</a>
+          </div>
+        </div>
+      </div>
+    </section>
   </main>
+
   <footer class="site-footer" id="footer">
     <div class="container site-footer__main">
       <div class="site-footer__brand">
         <a class="brand" href="index.html" aria-label="BUILDORA — العودة إلى أعلى الصفحة">
           <span class="brand__mark" aria-hidden="true"></span>
-          <span><span class="brand__text" lang="en" dir="ltr">BUILDORA</span><span class="brand__caption">للمقاولات والتشطيبات</span></span>
+          <span class="brand__text" lang="en" dir="ltr">BUILDORA</span>
+          <span class="brand__caption">للمقاولات والتشطيبات</span>
         </a>
         <p class="site-footer__intro">رؤية معمارية تجمع بين الانضباط الهندسي وحس التفاصيل. مشروع واجهات توضيحي يعرض مفهوم علامة تجارية للمقاولات والتشطيبات في مصر.</p>
       </div>
@@ -100,18 +115,29 @@
           <li><a href="services.html">خدماتنا</a></li>
           <li><a href="projects.html">مشاريعنا</a></li>
           <li><a href="about.html">من نحن</a></li>
-          <li><a href="contact.html#quote">تواصل معنا</a></li>
         </ul>
       </div>
       <div>
-        <h2 class="site-footer__heading">عن المشروع</h2>
-        <p class="site-footer__hint">مقر الشركة وأرقام التواصل وأسماء العملاء غير متاحة؛ جميع الأمثلة والمشاريع والأرقام المعروضة بيانات تصميم تجريبية.</p>
-        <p class="site-footer__hint site-footer__hint--spaced" lang="en" dir="ltr">Egypt · Portfolio Concept</p>
+        <h2 class="site-footer__heading">التواصل والخدمات</h2>
+        <ul class="site-footer__list">
+          <li><a href="services.html#process">مراحل العمل</a></li>
+          <li><a href="projects.html">معرض التصورات</a></li>
+          <li><a href="about.html">عن المشروع</a></li>
+          <li><a href="contact.html#quote">تواصل معنا</a></li>
+        </ul>
+      </div>
+      <div class="site-footer__cta">
+        <p class="site-footer__hint">جميع الأمثلة والمشاريع بيانات تصميمية توضيحية — Concept Project / Demo.</p>
       </div>
     </div>
     <div class="container site-footer__bottom">
-      <span><span lang="en" dir="ltr">© BUILDORA</span> — عرض تصميمي توضيحي، لا يمثل شركة حقيقية.</span>
-      <span class="site-footer__demo" lang="en" dir="ltr">Concept Project / Demo</span>
+      <span>جميع الحقوق محفوظة © 2026 <span lang="en" dir="ltr">BUILDORA</span> — عرض تصميمي توضيحي.</span>
+      <ul class="site-footer__socials" aria-label="رموز تواصل توضيحية">
+        <li class="site-footer__social-item"><i class="fa-brands fa-facebook-f" aria-hidden="true"></i></li>
+        <li class="site-footer__social-item"><i class="fa-brands fa-x-twitter" aria-hidden="true"></i></li>
+        <li class="site-footer__social-item"><i class="fa-brands fa-instagram" aria-hidden="true"></i></li>
+        <li class="site-footer__social-item"><i class="fa-brands fa-youtube" aria-hidden="true"></i></li>
+      </ul>
     </div>
   </footer>
 </body>

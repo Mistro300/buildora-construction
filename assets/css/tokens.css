@@ -1,29 +1,34 @@
-/* BUILDORA design tokens — Stage B production baseline. */
+/* BUILDORA design tokens — Architectural Luxury Design System. */
 :root {
-  /* 60%: warm foundations */
-  --bg-page: #f8f7f3;
+  /* Warm limestone & ivory light foundations */
+  --bg-page: #f4f1ea;
   --bg-surface: #ffffff;
-  --bg-subtle: #efece4;
+  --bg-subtle: #ebe6dc;
+  --bg-faq: #faf8f4;
 
-  /* 30%: architectural dark palette */
-  --brand-navy: #14212e;
-  --brand-navy-deep: #0d1620;
-  --brand-navy-elevated: #1d2e3f;
+  /* Deep architectural navy palette */
+  --brand-navy: #121c29;
+  --brand-navy-deep: #0b131e;
+  --brand-navy-elevated: #192636;
+  --brand-card-dark: #101722;
 
-  /* 10%: restrained metallic accent */
-  --accent-brass: #c89a65;
-  --accent-brass-hover: #b0834f;
+  /* Antique champagne brass accent */
+  --accent-brass: #b89760;
+  --accent-brass-light: #c9ab76;
+  --accent-brass-hover: #9f7f49;
+  --accent-brass-soft: rgba(184, 151, 96, 0.14);
+  --accent-brass-border: rgba(184, 151, 96, 0.34);
 
   /* Semantic surfaces and text */
-  --text-primary: #14212e;
+  --text-primary: #111c29;
   --text-muted: #55616d;
   --text-inverse: #ffffff;
-  --text-inverse-muted: #d9e0e6;
-  --text-brass-on-light: #77502e;
-  --surface-brass-soft: #f0e4d5;
-  --border-hairline: rgba(20, 33, 46, 0.12);
-  --border-inverse: rgba(255, 255, 255, 0.2);
-  --focus-strong: #14212e;
+  --text-inverse-muted: #cbd4de;
+  --text-brass-on-light: #7c5a2a;
+  --surface-brass-soft: #efe4d2;
+  --border-hairline: rgba(17, 28, 41, 0.11);
+  --border-inverse: rgba(255, 255, 255, 0.16);
+  --focus-strong: #121c29;
   --focus-inverse: #ffffff;
   --status-error: #99333b;
   --status-success: #216347;
@@ -36,17 +41,20 @@
   --font-weight-medium: 500;
   --font-weight-semibold: 600;
   --font-weight-bold: 700;
-  --fs-h1: clamp(2.25rem, 4.5vw, 3.85rem);
-  --fs-h2: clamp(1.65rem, 3vw, 2.6rem);
-  --fs-h3: clamp(1.15rem, 1.6vw, 1.4rem);
+  --font-weight-extrabold: 800;
+
+  --fs-h1: clamp(2.35rem, 4.6vw, 3.9rem);
+  --fs-h2: clamp(1.55rem, 2.6vw, 2.25rem);
+  --fs-h3: clamp(1.1rem, 1.5vw, 1.32rem);
   --fs-body: 1rem;
   --fs-small: clamp(0.875rem, 0.85rem + 0.12vw, 0.95rem);
-  --fs-lead: clamp(1.075rem, 1.01rem + 0.3vw, 1.25rem);
-  --fs-stat: clamp(2rem, 3.75vw, 3.5rem);
-  --line-height-h1: 1.15;
+  --fs-lead: clamp(1.05rem, 1rem + 0.25vw, 1.22rem);
+  --fs-stat: clamp(1.6rem, 2.4vw, 2.1rem);
+
+  --line-height-h1: 1.16;
   --line-height-h2: 1.25;
   --line-height-h3: 1.35;
-  --line-height-body-ar: 1.75;
+  --line-height-body-ar: 1.72;
   --line-height-body-en: 1.6;
 
   /* Four-point spacing scale */
@@ -61,30 +69,31 @@
   --space-20: 80px;
   --space-24: 96px;
   --space-28: 112px;
-  --section-space: clamp(4rem, 7.5vw, 6.5rem);
-  --container-max: 1280px;
-  --page-gutter: clamp(1rem, 3vw, 2.5rem);
-  --grid-gap: clamp(1rem, 2.3vw, 2rem);
+  --section-space: clamp(3.25rem, 5.5vw, 4.75rem);
+  --container-max: 1180px;
+  --page-gutter: clamp(1rem, 3vw, 2.25rem);
+  --grid-gap: clamp(1rem, 2vw, 1.5rem);
 
-  /* Restrained geometry */
-  --radius-sm: 2px;
-  --radius-md: 4px;
-  --radius-lg: 8px;
+  /* Refined architectural geometry */
+  --radius-sm: 4px;
+  --radius-md: 6px;
+  --radius-lg: 10px;
   --border-width: 1px;
-  --control-min-height: 44px;
+  --control-min-height: 46px;
   --button-min-height: 44px;
-  --header-height: 80px;
-  --header-height-mobile: 64px;
-  --icon-sm: 16px;
-  --icon-md: 20px;
+  --header-height: 82px;
+  --header-height-mobile: 66px;
+  --icon-sm: 15px;
+  --icon-md: 19px;
   --icon-lg: 24px;
 
-  /* Minimal depth and movement */
-  --shadow-card: 0 8px 24px rgba(13, 22, 32, 0.07);
-  --shadow-header: 0 8px 24px rgba(13, 22, 32, 0.08);
+  /* Subtle elevation & smooth transitions */
+  --shadow-card: 0 6px 24px rgba(11, 19, 30, 0.055);
+  --shadow-card-hover: 0 12px 32px rgba(11, 19, 30, 0.11);
+  --shadow-header: 0 8px 28px rgba(7, 12, 20, 0.28);
   --duration-fast: 160ms;
   --duration-normal: 240ms;
-  --duration-image: 400ms;
+  --duration-image: 420ms;
   --ease-architectural: cubic-bezier(0.22, 1, 0.36, 1);
   --focus-ring-width: 3px;
   --focus-ring-offset: 3px;

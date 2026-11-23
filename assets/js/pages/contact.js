@@ -120,8 +120,10 @@ export async function initializeContact() {
     }
 
     const serviceTitle = services.find((service) => service.id === values.serviceId).title;
+    const phoneValue = String(form.elements.namedItem('phone')?.value ?? '').trim();
     const rows = [
       ['الاسم', values.name],
+      ...(phoneValue ? [['رقم الهاتف (توضيحي)', phoneValue]] : []),
       ['الخدمة', serviceTitle],
       ['المساحة', `${values.areaSqm} m²`],
       ['الميزانية', budgetLabels[values.budgetBand]],
